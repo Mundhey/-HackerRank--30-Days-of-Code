@@ -1,19 +1,20 @@
-#!/bin/python
+def get_total_cost_of_meal():
+    # original meal price
+    meal_cost = float(raw_input())
+    # tip percentage
+    tip_percent = float(raw_input())
+    # tax percentage
+    tax_percent = float(raw_input())
 
-import sys
+    # Write your calculation code here
+    tip = (tip_percent / 100) * meal_cost  # calculate tip
+    tax = (tax_percent / 100) * meal_cost  # caclulate tax
+
+    # cast the result of the rounding operation to an int and save it as total_cost
+    total_cost = int(round(meal_cost + tip + tax))
+
+    return str(total_cost)
 
 
-N = int(raw_input().strip())
-
-if(N%2!=0):
-    print "Weird"
-else:
-
-    if(N>=2 and N<=5):
-        print "Not Weird"
-    if (N >= 6 and N <= 20):
-        print "Weird"
-    if (N > 20):
-        print "Not Weird"
-
-
+# Print your result
+print("The total meal cost is " + get_total_cost_of_meal() + " dollars.")
