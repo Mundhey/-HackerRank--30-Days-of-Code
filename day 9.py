@@ -8,10 +8,6 @@ def factorial(N):
 
 
 
-
-
-
-
 N=int(raw_input())
 
 ans=factorial(N)
