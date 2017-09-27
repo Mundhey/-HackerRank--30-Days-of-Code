@@ -9,13 +9,6 @@ class Difference:
 
 
 
-
-
-
-
-
-
-
 # End of Difference class
 
 _ = raw_input()
