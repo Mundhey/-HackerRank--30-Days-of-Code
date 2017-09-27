@@ -19,18 +19,6 @@ class MyBook(Book):
         print "Author:",self.author
         print "Price:",self.cost
 
-
-
-
-
-
-
-
-
-
-
-
-
 title=raw_input()
 author=raw_input()
 price=int(raw_input())
