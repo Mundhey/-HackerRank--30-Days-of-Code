@@ -24,5 +24,5 @@ for a0 in range(t):
 
 
 
- 
+
 
